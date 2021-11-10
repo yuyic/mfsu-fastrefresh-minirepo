@@ -12,16 +12,4 @@ export default defineConfig({
   // webpack5:{},
   fastRefresh: {},
   mfsu:{},
-  chainWebpack: (config) => {
-    const conf = config.toConfig()
-    
-    conf
-
-    // fs.writeFileSync(
-    //   Buffer.from(JSON.stringify(config.toConfig(),null,2)),
-    //   "webpack.js"
-    // )
-
-     return config;
- }
 });
